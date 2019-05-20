@@ -1,5 +1,5 @@
 class Cat
-  def intantiate(name)
+  def initialize(name)
     @name = name
   end
 
@@ -7,5 +7,5 @@ class Cat
 
   def meow
     puts "meow!"
-  end 
+  end
 end
